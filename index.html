@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Information about a personal Rclone OAuth connection to Google Drive for MathDocs.">
+  <meta name="robots" content="index,follow">
+  <title>MathDocs Rclone — Personal Google Drive Connection</title>
+  <style>
+    :root { color-scheme: light; --ink:#192535; --muted:#546376; --accent:#245a9e; --line:#dce4ec; --bg:#f5f8fb; --surface:#fff; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+    .wrap { width:min(100% - 40px,720px); margin-inline:auto; }
+    header { background:var(--surface); border-bottom:1px solid var(--line); }
+    header .wrap { padding:22px 0; display:flex; justify-content:space-between; gap:16px; align-items:center; flex-wrap:wrap; }
+    .brand { font-size:1.05rem; font-weight:750; letter-spacing:-.025em; }
+    nav { display:flex; gap:22px; }
+    a { color:var(--accent); text-underline-offset:3px; }
+    nav a { font-weight:600; }
+    main { margin:52px auto 76px; padding:40px; background:var(--surface); border:1px solid var(--line); border-radius:18px; box-shadow:0 12px 35px rgba(22,48,75,.04); }
+    h1 { margin:0 0 14px; font-size:clamp(1.9rem,4vw,2.65rem); letter-spacing:-.035em; line-height:1.2; }
+    h2 { margin-top:28px; font-size:1.14rem; }
+    p { margin:12px 0; }
+    .eyebrow { text-transform:uppercase; font-size:.75rem; color:var(--accent); letter-spacing:.1em; font-weight:750; margin-bottom:10px; }
+    .intro { color:var(--muted); font-size:1.075rem; }
+    .notice { margin:26px 0; padding:17px 20px; border-left:4px solid var(--accent); background:#eef5fd; border-radius:0 10px 10px 0; }
+    footer { padding:0 0 36px; text-align:center; color:var(--muted); font-size:.86rem; }
+    @media(max-width:560px) { .wrap {width:min(100% - 24px,720px);} main {padding:25px 20px; margin:24px auto 44px;} }
+  </style>
+</head>
+<body>
+  <header><div class="wrap"><div class="brand">MathDocs · Rclone OAuth</div><nav aria-label="Main navigation"><a href="./">Home</a><a href="privacy.html">Privacy policy</a></nav></div></header>
+  <main class="wrap">
+    <p class="eyebrow">Personal-use OAuth application</p>
+    <h1>MathDocs Rclone</h1>
+    <p class="intro">A personal connection between Rclone and Google Drive for organizing and accessing my own documents on Linux.</p>
+    <h2>What it does</h2>
+    <p>I use <a href="https://rclone.org/">Rclone</a> on my own devices to access, mount and manage files in my personal Google Drive as part of a local document-management setup called MathDocs.</p>
+    <p>The OAuth application enables Rclone to request access to Google Drive after I authorize it with my own Google account. Depending on the permissions granted, Rclone may be able to access Drive files beyond the folder used for MathDocs.</p>
+    <div class="notice"><strong>Not a public service.</strong> This integration is intended for the Google account owner's personal use. This website does not provide a login, file hosting, public access to Drive, or access to the owner's files.</div>
+    <h2>Privacy</h2>
+    <p>This is an informational website only. It contains no analytics, forms, tracking scripts or application backend. See the <a href="privacy.html">privacy policy</a> for details on data access and OAuth authorization.</p>
+    <h2>About the software</h2>
+    <p>Rclone is an independent open-source program. This site is not an official Google or Rclone website.</p>
+  </main>
+  <footer class="wrap">Personal MathDocs Rclone integration · <a href="privacy.html">Privacy policy</a></footer>
+</body>
+</html>
